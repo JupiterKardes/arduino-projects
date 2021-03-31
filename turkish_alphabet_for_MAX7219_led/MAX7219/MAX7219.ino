@@ -343,7 +343,7 @@ void U() {
 }
 
 void U2() {
-  lc.setRow(0,0,B01000010);
+  lc.setRow(0,0,B00100100);
   lc.setRow(0,1,B00000000);
   lc.setRow(0,2,B01000010);
   lc.setRow(0,3,B01000010);
@@ -418,7 +418,7 @@ void writeArduinoOnMatrix() {
   byte o[5]={B00011100,B00100010,B00100010,B00100010,B00011100};
 
   /* now display them one by one with a small delay */
-  /* 
+   
   A();
   B();
   C();
@@ -430,8 +430,8 @@ void writeArduinoOnMatrix() {
   G2();
   H();
   I();
-  I2();*/
-  J();/*
+  I2();
+  J();
   K();
   L();
   M();
@@ -447,7 +447,7 @@ void writeArduinoOnMatrix() {
   U2();
   V();
   Y();
-  Z();*/
+  Z();
 /*
   M();
   U();
